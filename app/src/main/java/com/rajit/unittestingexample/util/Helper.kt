@@ -27,4 +27,26 @@ class Helper {
 
     }
 
+    fun isValidPassword(passString: String) : Boolean {
+
+        if(passString.isNotEmpty() && passString.length in 6..15) {
+            return true
+        }
+
+        return false
+
+    }
+
+    fun reverseAString(string: String): String {
+
+        var reversedString = ""
+
+        for (ch in string) {
+            reversedString = ch + reversedString
+        }
+
+        return reversedString
+
+    }
+
 }
