@@ -17,6 +17,20 @@
             </AndroidTestResultsTableState>
           </value>
         </entry>
+        <entry key="-1784945202">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="192.168.29.13:41661" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Realme&#10; RMX1901" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
         <entry key="-1100962370">
           <value>
             <AndroidTestResultsTableState>
@@ -45,6 +59,20 @@
             </AndroidTestResultsTableState>
           </value>
         </entry>
+        <entry key="-670415684">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="192.168.29.13:41661" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Realme&#10; RMX1901" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
         <entry key="378223681">
           <value>
             <AndroidTestResultsTableState>
@@ -65,6 +93,20 @@
               <option name="preferredColumnWidths">
                 <map>
                   <entry key="192.168.29.13:37831" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Realme&#10; RMX1901" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="1369328775">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="192.168.29.13:41661" value="120" />
                   <entry key="Duration" value="90" />
                   <entry key="Realme&#10; RMX1901" value="120" />
                   <entry key="Tests" value="360" />

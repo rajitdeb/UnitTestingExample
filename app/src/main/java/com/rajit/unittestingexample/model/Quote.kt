@@ -1,6 +1,6 @@
 package com.rajit.unittestingexample.model
 
 data class Quote(
-    val quoteText: String,
+    val quote: String,
     val author: String
 )

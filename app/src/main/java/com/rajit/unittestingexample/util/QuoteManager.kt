@@ -1,6 +1,7 @@
 package com.rajit.unittestingexample.util
 
 import android.content.Context
+import android.util.Log
 import com.google.gson.Gson
 import com.rajit.unittestingexample.model.Quote
 
@@ -19,6 +20,7 @@ class QuoteManager {
         val json = String(buffer, Charsets.UTF_8)
         val gson = Gson()
         quoteList = gson.fromJson(json, Array<Quote>::class.java)
+        Log.i("GSONPARSE", "GSONEPARSE: $quoteList")
 
     }
 

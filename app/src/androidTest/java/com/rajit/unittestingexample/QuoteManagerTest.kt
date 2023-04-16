@@ -18,6 +18,14 @@ class QuoteManagerTest {
         quoteManager = QuoteManager()
     }
 
+    @Test
+    fun testPopulateQuoteFromAssets_check_QuotesArePopulatedInListCorrectly() {
+        val context = ApplicationProvider.getApplicationContext<Context>()
+        quoteManager.populateQuotesFromAssets(context, "quote.json")
+        val result = quoteManager.getCurrentQuote().quote
+        assertEquals("Genius is one-percent inspiration and ninety-nine percent perspiration", result)
+    }
+
     @Test(expected = FileNotFoundException::class)
     fun testPopulateQuoteFromAssets_inputContext_EmptyFileName_Expected_FileNotFoundException() {
         // get application context
