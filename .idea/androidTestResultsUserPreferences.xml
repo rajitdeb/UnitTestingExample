@@ -31,6 +31,20 @@
             </AndroidTestResultsTableState>
           </value>
         </entry>
+        <entry key="-1695496332">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="192.168.29.116:41829" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Realme&#10; RMX1901" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
         <entry key="-1100962370">
           <value>
             <AndroidTestResultsTableState>
@@ -65,6 +79,34 @@
               <option name="preferredColumnWidths">
                 <map>
                   <entry key="192.168.29.13:41661" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Realme&#10; RMX1901" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="-206859867">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="192.168.29.116:41829" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Realme&#10; RMX1901" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="107397683">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="192.168.29.116:41829" value="120" />
                   <entry key="Duration" value="90" />
                   <entry key="Realme&#10; RMX1901" value="120" />
                   <entry key="Tests" value="360" />
