@@ -26,8 +26,8 @@ class QuotesDaoTest {
     @get:Rule
     val instantExecutorRule = InstantTaskExecutorRule()
 
-    lateinit var quoteDatabase: QuoteDatabase
-    lateinit var quotesDao: QuotesDao
+    private lateinit var quoteDatabase: QuoteDatabase
+    private lateinit var quotesDao: QuotesDao
 
     @Before
     fun setup() {
