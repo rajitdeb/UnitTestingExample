@@ -9,5 +9,14 @@
         android:id="@+id/quoteFragment"
         android:name="com.rajit.unittestingexample.ui.QuoteFragment"
         android:label="fragment_quote"
-        tools:layout="@layout/fragment_quote" />
+        tools:layout="@layout/fragment_quote" >
+        <action
+            android:id="@+id/action_quoteFragment_to_productStoreFragment"
+            app:destination="@id/productStoreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productStoreFragment"
+        android:name="com.rajit.unittestingexample.ui.ProductStoreFragment"
+        android:label="fragment_product_store"
+        tools:layout="@layout/fragment_product_store" />
 </navigation>

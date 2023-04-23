@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import com.rajit.unittestingexample.MainActivity
 import com.rajit.unittestingexample.R
 import com.rajit.unittestingexample.databinding.FragmentQuoteBinding
@@ -32,6 +33,10 @@ class QuoteFragment : Fragment() {
         quoteManager.populateQuotesFromAssets(requireContext(), "quote.json")
 
         binding.apply {
+
+            productStoreBtn.setOnClickListener {
+                findNavController().navigate(R.id.action_quoteFragment_to_productStoreFragment)
+            }
 
             quoteTxt.text = quoteManager.getCurrentQuote().quote
             quoteAuthor.text = quoteManager.getCurrentQuote().author

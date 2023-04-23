@@ -7,6 +7,16 @@
     android:background="@drawable/quote_bg"
     tools:context=".ui.QuoteFragment">
 
+    <Button
+        android:id="@+id/productStoreBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Product Store"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shareButton" />
+
     <androidx.cardview.widget.CardView
         android:id="@+id/quoteCard"
         android:layout_width="0dp"
