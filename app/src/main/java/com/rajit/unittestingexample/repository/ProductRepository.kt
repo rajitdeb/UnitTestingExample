@@ -7,7 +7,6 @@ import com.rajit.unittestingexample.util.NetworkResult
 class ProductRepository(
     private val productAPI: ProductAPI
 ) {
-
     suspend fun getProducts(): NetworkResult<List<ProductListItem>> {
 
         val response = productAPI.getProducts()
@@ -17,10 +16,10 @@ class ProductRepository(
             if(responseBody != null) {
                 NetworkResult.Success(responseBody)
             } else {
-                NetworkResult.Error("Something went wrong. Error: ${response.errorBody()}")
+                NetworkResult.Error("Something went Wrong")
             }
         } else {
-            NetworkResult.Error("Something really went wrong. Error: ${response.errorBody()}")
+            NetworkResult.Error("Something really went wrong")
         }
 
     }

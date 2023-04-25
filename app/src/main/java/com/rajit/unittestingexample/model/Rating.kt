@@ -1,6 +1,6 @@
 package com.rajit.unittestingexample.model
 
 data class Rating(
-    val rate: Float,
+    val rate: Double,
     val count: Int
 )
