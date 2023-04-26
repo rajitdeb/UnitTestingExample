@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Test Product 1",
+    "price": 210.50,
+    "description": "This is a test product 1 description",
+    "category": "Men Clothing",
+    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "title": "Test Product 2",
+    "price": 168.00,
+    "description": "This is a test product 2 description",
+    "category": "Apparel & Jewellery",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 70
+    }
+  }
+]
